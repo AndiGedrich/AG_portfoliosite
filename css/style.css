@@ -1,0 +1,208 @@
+/*landing page */
+
+HTML, BODY {
+  height: 100%;
+}
+
+body {
+  background: white;
+  background-size: .12em 100%;
+  font: 1em 'Megrim', cursive;
+}
+
+.text--line {
+  font-size: .2em;
+}
+.svg-hello {
+  width: 100%;
+  /*height: 50%;*/
+  font: 16em/1 'Megrim', cursive;
+  height: 200px;
+}
+
+
+.text-copy {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 7% 28%;
+  stroke-width: 3px;
+  -webkit-animation: stroke-offset 6s infinite linear;
+          animation: stroke-offset 6s infinite linear;
+}
+.text-copy:nth-child(1) {
+  stroke: #cc66ff;
+  stroke-dashoffset: 2%;
+}
+.text-copy:nth-child(2) {
+  stroke: #8800cc;
+  stroke-dashoffset: 7%;
+}
+.text-copy:nth-child(3) {
+  stroke: #e6b3ff;
+  stroke-dashoffset: 15%;
+}
+.text-copy:nth-child(4) {
+  stroke: #ff66ff;
+  stroke-dashoffset: 20%;
+}
+.text-copy:nth-child(5) {
+  stroke: #6666ff;
+  stroke-dashoffset: 25%;
+}
+
+@-webkit-keyframes stroke-offset {
+  50% {
+    stroke-dashoffset: 35%;
+    stroke-dasharray: 0 87.5%;
+  }
+}
+
+@keyframes stroke-offset {
+  50% {
+    stroke-dashoffset: 35%;
+    stroke-dasharray: 0 87.5%;
+  }
+}
+
+/*type faces*/
+
+h1 {
+  font-family:'Megrim', cursive;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 25px;
+  color: black;
+  font-family: 'Dosis', sans-serif;
+}
+
+h3 {
+  font-size: 30px;
+  color: #b300b2;
+  font-family: 'Dosis', sans-serif;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Dosis', sans-serif;
+}
+
+span {
+  font-size: 15px;
+  color: #b300b2;
+  font-family: 'Dosis', sans-serif;
+}
+
+input {
+  font-size: 25px;
+  font-family: 'Dosis', sans-serif;
+  color: #b300b2;
+  background-color: #082330;
+}
+
+a {
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  color: #b300b2;
+}
+
+/*end type faces*/
+
+/* navigation*/
+ul {
+  float: center;
+  margin-top: 10px;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin: 20px;
+
+}
+
+#landingEntrance{
+  margin: 10px;
+}
+
+/*home*/
+#homeImg {
+  background-image: url("../images/homepic.jpg");
+  background-size: 750px 650px;
+  height: 650px;
+  width: 750px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center top;
+  top: 0px;
+  left: 25%;
+}
+
+/*about*/
+#info{
+  float: right;
+}
+
+#otherInfo{
+  float: left;
+}
+#party {
+  border: 2px;
+  margin-top: 60px;
+  float: right;
+}
+#andiPhoto {
+  height: 250px;
+  width: 250px;
+}
+
+#andiPhoto2 {
+  height: 300px;
+  margin-right: 100px;
+}
+
+#partyImg {
+  float: right;
+  min-width: 500px;
+}
+
+/* work page */
+#unicorn {
+  background-image: url("../images/unicorns.png");
+  background-size: 600px 300px;
+  height: 120px;
+  width: 135px;
+  position: relative;
+  background-position: 1px -1px;
+  top: 0px;
+  left: 50px;
+}
+
+#unicornBack {
+  background-image: url("../images/unicorns.png");
+  background-size: 600px 300px;
+  height: 120px;
+  width: 135px;
+  position: relative;
+  background-position: 1px -300px;
+  top: 0px;
+  left: 50px;
+}
+
+.img-responsive {
+  box-shadow: 10px 10px 5px #888888;
+}
+
+/*modal displays */
+
+HTMLJSCSSDIALOG1.TMPL.HTMLTABDIALOG.TMPL.HTML
+.dialogdemoBasicUsage #popupContainer {
+  position: relative; }
+.dialogdemoBasicUsage .footer {
+  width: 100%;
+  text-align: center;
+  margin-left: 20px; }
+.dialogdemoBasicUsage .footer, .dialogdemoBasicUsage .footer > code {
+  font-size: 0.8em;
+  margin-top: 50px; }
