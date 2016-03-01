@@ -1,6 +1,6 @@
   console.log("can you read me?")
     x = 0;
-    window.onload = function animateUnicorn(){
+    window.onclick = function animateUnicorn(){
       if (document.getElementById("unicorn") != null){
       var unicorn = document.getElementById("unicorn");
       x = x+1;

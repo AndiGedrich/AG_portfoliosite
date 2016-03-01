@@ -154,7 +154,7 @@ li {
 
 .rw-sentence span{
   color: #444;
-  font-size: 150%;
+  font-size: 130%;
   font-weight: normal;
 }
 
@@ -176,30 +176,30 @@ li {
 
 
 .rw-words span:nth-child(1){
+  -webkit-animation-delay: 0s;
+  -ms-animation-delay: 0s;
+  animation-delay: 0s;
+  color: #6b889d;
+}
+
+.rw-words span:nth-child(2){
   -webkit-animation-delay: 2s;
   -ms-animation-delay: 2s;
   animation-delay: 2s;
   color: #6b889d;
 }
 
-.rw-words span:nth-child(2){
+.rw-words span:nth-child(3){
   -webkit-animation-delay: 4s;
   -ms-animation-delay: 4s;
   animation-delay: 4s;
   color: #6b889d;
 }
 
-.rw-words span:nth-child(3){
+.rw-words span:nth-child(4){
   -webkit-animation-delay: 6s;
   -ms-animation-delay: 6s;
   animation-delay: 6s;
-  color: #6b889d;
-}
-
-.rw-words span:nth-child(4){
-  -webkit-animation-delay: 8s;
-  -ms-animation-delay: 8s;
-  animation-delay: 8s;
   color: #7a6b9d;
 }
 
